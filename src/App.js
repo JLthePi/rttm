@@ -1,21 +1,12 @@
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
+import Header from './Header';
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
-        <div>
-          <Link to="/">
-            Home
-          </Link>
-          <Link to="/about">
-            About
-          </Link>
-          <Link to="/contact">
-            Contact
-          </Link>
-        </div>
+        <Header />
         <div>
           <Switch>
             <Route exact path="/">
