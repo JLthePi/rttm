@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+:root {
+  --main-background-color: #fff;
+  --main-font-color: #111111;
+  --color1: #57C3FF;
+  --color2: #FF9357;
+}
+
 .App {
   text-align: center;
 }
 
+.logo {
+  font-size: 50px;
+}
 
+.color1 {
+  color: var(--color1);
+}
+
+.color2 {
+  color: var(--color2);
+}
+
+.header {
+  font-family: "Reem Kufi";
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_bar {
+  height: 12px;
+  background-color: var(--color1);
+}

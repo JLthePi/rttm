@@ -7,6 +7,7 @@ const App = () => {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Header />
+        <div className="nav_bar" />
         <div>
           <Switch>
             <Route exact path="/">

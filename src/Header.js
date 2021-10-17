@@ -2,15 +2,17 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
 return (
-  <div>
+  <div className="header flex">
+    <div className="logo"><span className="color1">R</span>tt<span className="color2">M</span></div>
     <Link to="/">
-      Home
+      <div>Home</div>
+      <i className="fas fa-user"></i>
     </Link>
     <Link to="/about">
-      About
+    <div>About</div>
     </Link>
     <Link to="/contact">
-      Contact
+    <div>Contact</div>
     </Link>
   </div>
 )
